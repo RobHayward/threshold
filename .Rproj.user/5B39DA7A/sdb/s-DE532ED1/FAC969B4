@@ -1,0 +1,15 @@
+{
+    "contents" : "readme.R\n\nThese files are distributed to replicate the empirical\nwork reported in\n\n\"Sample Splitting and Threshold Estimation\"\n\nwritten by:\n\nBruce E. Hansen\nDepartment of Economics\nSocial Science Building\nUniversity of Wisconsin\nMadison, WI 53706-1393\nbehansen@wisc.edu\nhttp://www.ssc.wisc.edu/~bhansen/\n\n\nThe files are\n\nthr_est.R\nthr_test.R\nthr_het.R\ndur_john.dat\ndj_readme.R\ngrowth.R\n\n\n(1)  thr_est.R\nThis is a R procedure.  It computes estimates and confidence\nintervals for threshold models.  The procedure takes the form\n\nqhat <- thr_est(dat,names,yi,xi,qi,h)\n\n\n(2)  thr_test.R\nThis is a R procedure.\nIt computes a test for a threshold in linear regression\nunder homoskedasticity.  The procedure takes the form\n\noutput <- thr_test(dat,yi,xi,qi,trim_per,rep)\noutput$f_test\noutput$p_value\n\n(3)  thr_het.R\nThis is a R procedure.\nIt computes a test for a threshold in linear regression\nunder heteroskedasticity.  The procedure takes the form\n\noutput <- thr_het(dat,yi,xi,qi,trim_per,rep)\noutput$f_test\noutput$p_value\n\n\n(4)  dur_john.dat\nThis is a data file, with 121 observations and 11 variables.\nIt is the data distributed by Durlauf and Johnson (JAE, 1995) to\ndocument their empirical work.  See the following file.\n\n\n(5)  dj_readme.R\nThis is the dj_readme.R file distributed by Durlauf-Johnson to document\nthe data in the previous file.\n\n\n(6)  growth.R\nThis is a R program.\nIt loads the data dur_john.dat, the procedures thr_est.R and\nthr_het.R, and estimates the sample split models.\n\n\n",
+    "created" : 1410264928379.000,
+    "dirty" : false,
+    "encoding" : "ISO8859-1",
+    "folds" : "",
+    "hash" : "4035196133",
+    "id" : "FAC969B4",
+    "lastKnownWriteTime" : 1410263163,
+    "path" : "C:/Users/rh49/Projects/threshold/Extract/readme.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

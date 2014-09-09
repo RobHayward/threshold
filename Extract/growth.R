@@ -16,9 +16,9 @@
 
 # Load procedures and data #                  
 
-source("Z:\\thr_est.R")
-source("Z:\\thr_het.R")
-data <- read.table("z:\\dur_john.dat")
+source("Extract/thr_est.R")
+source("Extract/thr_het.R")
+data <- read.table("Extract/dur_john.dat")
 
 # Exclude missing variables and oil states #
 
